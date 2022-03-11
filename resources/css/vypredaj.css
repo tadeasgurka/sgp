@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {background-color: rgb(0, 0, 0);}
+
+.kontajner { 
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/pozadie.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    .navigacny_panel {
+        height: 12%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo_menu {
+        width: 100px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    
+    button {
+        width: 150px;
+        color: rgb(248, 180, 233);
+        font-size: 17px;
+        font-family: 'pay';
+        font-weight: bolder;
+        padding: 5px 1px 5px 1px;
+        background: rgba(0, 0, 0, 0.884);
+        border: 0;
+        border-radius: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: transform 0.5s;
+        }
+    
+        button:hover {
+            transform: scale(95%);
+        }
+    
+        .logo {
+            margin-left: 10px;
+            border: 0px;
+            margin-left: 30px;
+        }
+    
+        .o_nas {
+            margin-left: 130px;
+        }
+
+        a{
+            color: rgb(248, 180, 233);
+            text-decoration: none;
+        }
+    
+        p{
+            color: rgb(248, 180, 233);
+            font-family: sans;
+            font-size: 18px;
+        }
+
+        h1{
+            color: rgb(248, 180, 233);
+            font-family: pay;
+            font-size: 25px;
+        }
+    
+        @font-face {
+            font-family: 'pay' ; 
+            src: url(../fonts/PaytoneOne-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'teko' ;
+            src: url(../fonts/Teko-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'sans' ;
+            src: url(../fonts/SmoochSans-VariableFont_wght.ttf);
+        }
+        img {
+            border-radius: 20px;
+            
+        }
+
+        .produkt {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .riadok1 {
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+        .riadok2 {
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        h2 {
+            color: white;
+            font-size: 25px; 
+            font-family: sans;
+            text-decoration: line-through;
+        }
+
+        .cena {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        h2 {
+            color: white;
+            font-family: sans;
+            font-size: 25px;
+            text-decoration: line-through;
+        }
+
+        h3 {
+            color: red;
+            font-family: sans;
+            font-size: 35px;
+            margin-left: 10px;
+        }
+
+        .pata {
+            margin-top: 40px;
+            padding: 50px;
+            color: rgb(248, 180, 233);
+            font-size: 10px;
+            text-align: center;
+            font-family: pay;
+            text-shadow: 0 0 10px rgb(0, 0, 0),
+            0 0 20px rgb(0, 0, 0),
+            0 0 30px rgb(0, 0, 0),
+            0 0 40px rgb(0, 0, 0);
+        }
+
+        .skalovatelne {
+            padding-left: 1em;
+            text-align: justify;
+            resize: both;
+            overflow: auto;
+        }
+
+        .obrazok {
+            border-radius: 10px;
+            width: 230px;
+            height: 200px;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+        .obrazok:hover {
+            transform: scale(98%);
+        }
+
+    
+
+        
+       
+       

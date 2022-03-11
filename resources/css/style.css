@@ -1,0 +1,148 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/pozadie.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_menu {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+button {
+    width: 150px;
+    color: rgb(248, 180, 233);
+    font-size: 17px;
+    font-family: pay;
+    font-weight: bolder;
+    padding: 5px 1px 5px 1px;
+    background: rgba(0, 0, 0, 0.884);
+    border: 0;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    }
+
+    button:hover {
+        transform: scale(95%);
+    }
+
+    .logo {
+        margin-left: 10px;
+        border: 0px;
+        margin-left: 30px;
+    }
+
+    .o_nas {
+        margin-left: 130px;
+    }
+
+    a{
+        color: rgb(248, 180, 233);
+        text-decoration: none;
+    }
+
+    .napis {
+        padding: 20px;
+        text-shadow: 0 0 10px rgb(0, 0, 0),
+        0 0 20px rgb(0, 0, 0),
+        0 0 30px rgb(0, 0, 0),
+        0 0 40px rgb(0, 0, 0);
+    }
+
+    h1 {
+        color: rgb(248, 180, 233);
+        font-family: pay;
+        font-size: 50px;
+        font-weight: 100;
+        margin-left: 50px;
+        font-weight: bolder;
+    }
+
+    p{
+        color: rgb(248, 180, 233);
+        font-family: pay;
+        font-size: 17px;
+        font-weight: bolder;
+        margin-left: 200px;
+    }
+
+    .zistit_viac {
+        margin-left: 365px;
+    }
+
+    .obrazky {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vypredaj {
+        width: 400px;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 20px;
+        transition: transform 0.5s
+    }
+    
+    .vypredaj:hover {
+        transform: scale(98%);
+    }
+    
+    .doprava_zadarmo {
+        width: 400px;
+        height: 200px;
+        border-radius: 20px;
+        margin-top: 20px;
+        transition: transform 0.5s
+    }
+    
+    .doprava_zadarmo:hover {
+        transform: scale(98%);
+    }
+
+    .pata {
+        margin-top: 40px;
+        padding: 50px;
+        color: rgb(248, 180, 233);
+        font-size: 10px;
+        text-align: center;
+        font-family: pay;
+        text-shadow: 0 0 10px rgb(0, 0, 0),
+        0 0 20px rgb(0, 0, 0),
+        0 0 30px rgb(0, 0, 0),
+        0 0 40px rgb(0, 0, 0);
+    }
+
+.uputavky {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+    @font-face {
+        font-family: 'pay' ; 
+        src: url(../fonts/PaytoneOne-Regular.ttf);
+    }
+
+    .nazov {
+        font-family: pay;
+        text-shadow: 0 0 5px rgb(248, 180, 233),
+        0 0 10px rgb(248, 180, 233),
+        0 0 15px rgb(248, 180, 233),
+        0 0 20px rgb(248, 180, 233);
+        color: rgb(0, 0, 0);
+        margin-left: 25px;
+
+    }
+
+    
